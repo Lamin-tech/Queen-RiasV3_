@@ -4,8 +4,8 @@ require("dotenv").config();
 module.exports = {
     prefix: process.env.PREFIX || ".",
     ownerName: process.env.OWNER_NAME || "Toxxic-Boy",
-    ownerNumber: process.env.OWNER_NUMBER || "2348165846414",
-    mode: process.env.MODE || "public",
+    ownerNumber: process.env.OWNER_NUMBER || "2349160470523",
+    mode: process.env.MODE || "private",
     region: process.env.REGION || "Nigeria",
     botName: process.env.BOT_NAME || "Rias Gremory V3",
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES",
@@ -14,7 +14,7 @@ module.exports = {
     presenceStatus: process.env.PRESENCE_STATUS || "unavailable",
     autoRead: process.env.AUTO_READ === "true",
     autoViewStatus: process.env.AUTO_VIEW_STATUS === "true",
-    autoReact: process.env.AUTO_REACT === "true",
+    autoReact: process.env.AUTO_REACT === "false",
     sessionId: process.env.SESSION_ID || "",
     autoRejectEnabled: process.env.AUTO_REJECT_ENABLED || "false",
 };
